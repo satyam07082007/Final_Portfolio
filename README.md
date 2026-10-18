@@ -1,1 +1,1 @@
-This is my Final portfolio using html and CSS.
+This is my Final portfolio using HTML and CSS.
