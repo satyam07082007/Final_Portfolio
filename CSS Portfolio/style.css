@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+/* Main Content */
+
+body > div {
+    width: 92%;
+    max-width: 1000px;
+    margin: 25px auto;
+
+    background: #ffffff;
+
+    border: 1px solid #d6d3d1;
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+
+/* Profile */
+
+center {
+    padding: 35px 20px;
+
+    background: #f8f7f4;
+
+    border-bottom: 1px solid #d6d3d1;
+}
+
+center h1 {
+    font-size: 40px;
+    color: #243b53;
+    margin-bottom: 18px;
+}
+
+center img {
+    width: 160px;
+    height: 160px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    border: 3px solid #d97706;
+
+    margin-bottom: 15px;
+}
+
+center h3 {
+    color: #243b53;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+center p {
+    color: #6b7280;
+    font-size: 16px;
+}
+
+
+/* Horizontal Line */
+
+hr {
+    border: 0;
+    border-top: 1px solid #d6d3d1;
+}
+
+
+/* Headings */
+
+h2 {
+    padding: 22px 30px 8px;
+
+    color: #243b53;
+
+    font-size: 28px;
+}
+
+
+/* Paragraph */
+
+body > div > p {
+    padding: 5px 30px 20px;
+
+    color: #4a5568;
+
+    font-size: 16px;
+}
+
+
+/* Skills */
+
+ul {
+    padding: 10px 30px 25px;
+
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+
+    margin: 5px 6px 5px 0;
+
+    padding: 7px 15px;
+
+    background: #f8f7f4;
+
+    border: 1px solid #d6d3d1;
+
+    border-radius: 5px;
+
+    color: #4a5568;
+
+    font-size: 15px;
+}
+
+li:hover {
+    border-color: #d97706;
+    color: #b45309;
+}
+
+
+/* Project */
+
+ul li:only-child {
+    color: #243b53;
+
+    font-weight: bold;
+
+    background: #fffaf0;
+
+    border-color: #e5c07b;
+}
+
+
+/* Education */
+
+b {
+    color: #243b53;
+}
+
+body > div > h3 {
+    padding: 10px 30px 5px;
+
+    color: #243b53;
+
+    font-size: 20px;
+}
+
+body > div > h3 + p {
+    padding: 5px 30px 10px;
+}
+
+
+/* Links */
+
+a {
+    color: #b45309;
+
+    text-decoration: none;
+
+    font-weight: 500;
+}
+
+a:hover {
+    color: #92400e;
+
+    text-decoration: underline;
+}
+
+
+/* Contact */
+
+body > div > h2:last-of-type {
+    background: #f8f7f4;
+    border-top: 1px solid #d6d3d1;
+}
+
+body > div > h2:last-of-type ~ p {
+    background: #f8f7f4;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    body > div {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    center {
+        padding: 30px 15px;
+    }
+
+    center h1 {
+        font-size: 32px;
+    }
+
+    center img {
+        width: 140px;
+        height: 140px;
+    }
+
+    center h3 {
+        font-size: 18px;
+    }
+
+    h2 {
+        padding-left: 20px;
+        font-size: 25px;
+    }
+
+    body > div > p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    ul {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    body > div > h3 {
+        padding-left: 20px;
+    }
+
+    body > div > h3 + p {
+        padding-left: 20px;
+    }
+}
